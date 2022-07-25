@@ -1,9 +1,7 @@
 //
 // PhotosUITests.swift
 // PhotosUITests
-// 
-// Created by DreamOnline on 7/25/22.
-// Copyright © 2019 DreamOnline. All rights reserved.
+//
 //
 
 import XCTest
