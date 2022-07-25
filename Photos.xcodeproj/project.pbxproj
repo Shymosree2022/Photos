@@ -14,6 +14,7 @@
 		30CFFF55288EE20A004671BF /* ActivityIndicatorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CFFF51288EE20A004671BF /* ActivityIndicatorCollectionViewCell.xib */; };
 		30CFFF57288EE295004671BF /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFFF56288EE295004671BF /* UIButton+Extension.swift */; };
 		30CFFF59288EE971004671BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 30CFFF58288EE971004671BF /* README.md */; };
+		30CFFF5D288EF171004671BF /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CFFF5C288EF171004671BF /* photos.png */; };
 		696268D9288EB29E00D2B465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696268D8288EB29E00D2B465 /* AppDelegate.swift */; };
 		696268DB288EB29E00D2B465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696268DA288EB29E00D2B465 /* SceneDelegate.swift */; };
 		696268DD288EB29E00D2B465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696268DC288EB29E00D2B465 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		30CFFF51288EE20A004671BF /* ActivityIndicatorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorCollectionViewCell.xib; sourceTree = "<group>"; };
 		30CFFF56288EE295004671BF /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		30CFFF58288EE971004671BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		30CFFF5C288EF171004671BF /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
 		696268D5288EB29E00D2B465 /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696268D8288EB29E00D2B465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		696268DA288EB29E00D2B465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,9 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30CFFF5B288EF11B004671BF /* Demo Images */ = {
+			isa = PBXGroup;
+			children = (
+				30CFFF5C288EF171004671BF /* photos.png */,
+			);
+			path = "Demo Images";
+			sourceTree = "<group>";
+		};
 		696268CC288EB29D00D2B465 = {
 			isa = PBXGroup;
 			children = (
+				30CFFF5B288EF11B004671BF /* Demo Images */,
 				30CFFF58288EE971004671BF /* README.md */,
 				696268D7288EB29E00D2B465 /* Photos */,
 				696268EE288EB2A200D2B465 /* PhotosTests */,
@@ -329,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CFFF5D288EF171004671BF /* photos.png in Resources */,
 				30CFFF59288EE971004671BF /* README.md in Resources */,
 				696268E5288EB2A200D2B465 /* LaunchScreen.storyboard in Resources */,
 				30CFFF52288EE20A004671BF /* PhotoCollectionViewCell.xib in Resources */,
