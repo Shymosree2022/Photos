@@ -38,6 +38,3 @@ struct Urls: Codable {
         case smallS3 = "small_s3"
     }
 }
-
-//typealias Welcome = [WelcomeElement]
-
